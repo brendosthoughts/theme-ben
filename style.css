@@ -61,7 +61,7 @@ bottom: 11%;
 background: url(images/cowboy-ENTERxcf.png) no-repeat;
 background-size: 50%;
 width: 19%;
-height: 43%;
+height: 36%;
 display: inline;
 z-index: 3200;
 position: absolute;
@@ -87,7 +87,7 @@ width: 80%;
 text-align: center;
 color: #ccc;
 text-decoration: none;
-}
+}0px
 .fisk-ski img{
 clear: both;
 width: 70%;
@@ -1023,7 +1023,7 @@ display: none;
 	
 /* --- FOOTER --- */
 .wrapper-sponsors{
-width: 100%;
+width: 90%;
 display: inline-block;
 }
 
@@ -1110,7 +1110,7 @@ padding: 0px;
 margin: 0px;
 }
 footer {
-	height: 9%;
+	height: 10%;
 	padding:0px 0 10px 0px;
 	color:#272727;
 	font-size:11px;
@@ -1128,6 +1128,7 @@ color: #8B8882;
 .copyright{
 padding-bottom: 0.3em;
 text-align: center;
+height: 1em;
 }
 .fcred_old{
 	width:700px;
@@ -1326,6 +1327,10 @@ display:none;
 
 /* all media queries*/
 @media only screen and (max-width: 72em) { /* ~1150px */
+
+#simplemodal-container a.modalCloseImg {
+hieght: 26%;
+}
 .wrapper-sponsors{
 width: 100%;
 display: inline-block;
@@ -1354,6 +1359,7 @@ height: 20%;
 .copyright{
 height: 2em;
 width: 100%
+bottom: 0px;
 }
 #cowboy-hover{
 float:left;
@@ -1521,7 +1527,8 @@ right: 5px;
 }
 .spreadtheword{
  clear: left;
- padding-bottom: 1em;
+position: relative;
+top: -1em;
 }
 .sharing i.icon-share{
 font-size: 2em;
@@ -1531,7 +1538,7 @@ border-radius: 50%;
 background: #ccc;
 }
 .sharing .addthis_toolbox {
-position: absolute;
+posi0pxtion: absolute;
 right: 0px;
 clear: both;
 text-align: right;
@@ -1594,14 +1601,16 @@ width: 100%;
 text-align: center;
 display: table;
  background:rgba(222,222,222, 0.5);
-width: 45%;
-min-width: 600px;
+width: 90%;
+min-width: 575px;
 border:#ccc 1px solid;
 -moz-border-radius:1em;
 -webkit-border-radius:1em;
 border-radius:1em;
 font-size:1em;
 color: black;
+margin-right: 5%;
+margin-left: 5%;
 }
 
 .race_location header{
@@ -1633,10 +1642,79 @@ display:table-cell;
 font-size: 1.1em;
 line-height: 1.1em;
 }
+.extra_results{
+float: left;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+padding: 1em 1em 1em 1em;
+text-align: center;
+}
+.extra_results .fis-ski{
+display: none;
+}
+.extra_results a{
+ margin: 1em 0em 1em 0em;
+}
+
 }
 
 /* end of 1150px or 72em media query */
 @media only screen and (max-width: 55em){ /* ~ 875px */
+
+.vid_cover content{
+width:95%;
+bottom: 0px;
+}
+.vid_cover img{
+float: left;
+width: 12%;
+}
+
+#short_bio{
+position: absolute;
+top: 5em;
+left: 7%;
+font-size: 1.2em;
+width: 66%;
+float: right;
+text-align: left;
+padding: 1em 2em 0px 2em;
+}
+#vid_wrapper{
+position: absolute;
+top: 50%;
+float: left;
+height: 50%;
+max-width: 60%;
+margin-right:20%;
+margin-left:20%;
+}
+#vid_wrapper iframe{
+height:100%;
+}
+.simplemodal-container{
+height:80%; 
+width:100%; 
+color:white;
+ background-color:#000;
+overflow: hidden;
+padding-left: 2%;
+top: 0px;
+ }
+#simple0pxmodal-container a.modalCloseImg {
+background: url(images/cowboy-ENTERxcf.png) no-repeat;
+background-size: 75%;
+width: 18%;
+height: 84%;
+display: inline;
+z-index: 3200;
+position: absolute;
+bottom: 0%;
+left: 82%;
+cursor: pointer;
+}
+
 .spreadtheword{
 	display: none;
 }
@@ -1646,6 +1724,9 @@ width: 7%;
 footer{
 height: 17%
 }
+
+
+
 }
 /* end of 875px or 55em media query */
 @media only screen and (max-width: 47em){ /* ~750px */
@@ -1660,6 +1741,45 @@ text-align: right;
 }
 /* end of 750px or 47em  media query */
 @media only screen and (max-width: 43em) { /* ~700px */
+
+.race_location{
+text-align: center;
+display: table;
+ background:rgba(222,222,222, 0.5);
+width: 90%;
+min-width: 270px;
+border:#ccc 1px solid;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+border-radius:1em;
+font-size:1em;
+color: black;
+margin-right: 5%;
+margin-left: 5%;
+}
+
+.tbl_row{
+display: table-row;
+ width: 100%;
+border-bottom:#ccc 1px solid;
+}
+.date{
+width: 50%;
+display:table-cell;
+}
+.race_time{
+
+ width:20%;
+display:table-cell;
+
+}
+.category{
+    width:30%;
+display:table-cell;
+}
+
+
+
 .subhead{
 display: none;
 }
@@ -1695,6 +1815,55 @@ display: none;
 }
 /* end of 520px end of 32.5em media query */
 @media only screen and (max-width: 27em){ /* ~ 420px*/
+.vid_cover content{
+width:100%;
+height: 90%;
+bottom: 0px;
+}
+.vid_cover img{
+width: 20%;
+}
+
+#short_bio{
+width: 77%;
+padding: 1em 2em 0px 2em;
+}
+#vid_wrapper{
+position: absolute;
+top: 60%;
+float: left;
+height: 40%;
+max-width: 75%;
+margin: 0px;
+}
+#vid_wrapper iframe{
+height:100%;
+}
+.simplemodal-container header{
+font-size: 3em;
+}
+.simplemodal-container{
+height:80%; 
+width:100%; 
+color:white;
+ background-color:#000;
+overflow: hidden;
+padding-left: 2%;
+top: 0px;
+}
+
+#simplemodal-container a.modalCloseImg {
+background-size: 75%;
+width: 30%;
+height: 33%;
+display: inline;
+z-index: 3200;
+position: absolute;
+bottom: 0%;
+left: 65%;
+}
+
+
 #top{
 margin-right: 0px;
 float: right;
