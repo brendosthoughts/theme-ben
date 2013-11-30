@@ -5,28 +5,6 @@
    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/fonts/font-icon/css/fontello-ie7.css" media="screen" />
 <![endif]-->
 
-<script type="text/javascript">
-jQuery(document).ready(function($){
-	/* toggle events for smaller screens */
-	$(".menu-button").on("click", function(){
-		$("#mp-menu").slideToggle();
-		$(this).toggleClass("active");
-	});
-	$(".menu-item").on("click", function(){
-		$(".sub-menu").hide();
-		$(".menu-item").removeClass("active");
-                $(this).children(".sub-menu").slideToggle();
-                $(this).toggleClass("active");
-
-        });
-        $(".icon-share").on("click", function(){
-                $(".addthis_toolbox").slideToggle();
-                $(this).toggleClass("active");
-        });
-
-
-});
-</script>
 </head>
 <body>
 
@@ -64,16 +42,6 @@ jQuery(document).ready(function($){
 	</div>
 	
 </div><!--end masthead-->
-
-<script>
-jQuery(function($){
-	$('#scotia_hover').hover(
-	function(){
-	alert("scotia mecloed has been hovered over!");
-	});
-});
-</script>
-
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52646de97cbcc089"></script> 
 
 <!-- AddThis Button END -->

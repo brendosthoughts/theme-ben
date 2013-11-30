@@ -19,6 +19,8 @@
 <?php 
 wp_enqueue_script('jquery');
 wp_enqueue_script('fitText', get_stylesheet_directory_uri() .'/js/jquery.fittext.js');
+wp_enqueue_script('site-base-js', get_stylesheet_directory_uri() .'/js/site-base.js');
+
 //wp_enqueue_script('slides', get_stylesheet_directory_uri() .'/js/slides.min.jquery.js');p
 //wp_enqueue_script('effects', get_stylesheet_directory_uri() .'/js/effects.js');
 ?>
