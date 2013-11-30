@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'bad_grunge';
+    src: url('fonts/bad_grunge.ttf');
+    font-weight: normal;
+    font-style:normal;
+}
+
+body{
+font-size: 3em;
+background: #000;
+color: #ccc;
+font-family: 'bad_grunge';
+}
