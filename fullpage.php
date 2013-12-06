@@ -7,9 +7,18 @@
 <?php get_header(); ?>
 
 <div id="casing">
+
+<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        <div id="secondary" class="widget-area" role="complementary">
+<?php dynamic_sidebar( 'sidebar-1' ); ?>
+        </div>
+<?php endif; ?>
+
+
+
 <div class="incasing">
 
-<div id="content" style="width:760px;">
+<div id="content">
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
 
@@ -40,5 +49,6 @@
 </div>
 
 <div class="clear"></div>
-</div>	
-<?php get_footer(); ?>
+</div>
+<?php endif; ?>
+

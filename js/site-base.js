@@ -50,6 +50,8 @@ jQuery(function($){
                 $('#on_head_hover').removeClass('lightSpeedIn').addClass('lightSpeedOut');
 
                 $('#on_head_hover').fadeOut("slow");
+		$('#on_swix_hover').removeAttr( 'style' );
+
       });
         $('#swix-hover').mouseenter(
         function(){

@@ -65,8 +65,12 @@
 <div id="swix-hover"><a href="#"> <img class="swix" src="<?php echo get_stylesheet_directory_uri() ?>/images/Swix-logo-thumb.png" /></a>
      <div id="on_swix_hover" class="animated">
 	<p>
-	<a href="http://www.swixsport.com/"> <img src="<?php echo get_stylesheet_directory_uri() ?>/images/Swix-logo-thumb.png" /></a>
-	The Swix brand has been an industry leader in the racing scene for decades. Swix puts all its scientific knowledge and experience into providing athletes with products of the highest calibre, so that  they can expand their own limits and challenge the laws of nature.  Swix provides Ben with his <a href="http://www.swixsport.com/eway/default.aspx?pid=278&trg=MainContent_6179&MainContent_6179=6117:0:24,3021&MainPage_6117=6546:38046:" title="Swix Racing Poles"> racing poles </a> and <a href="http://www.swixsport.com/eway/default.aspx?pid=278&trg=MainContent_6179&MainContent_6179=6117:0:24,2703" title="Swix tunning equipment">tuning equipment </a> so he can perform at his best.	
+	 <a href="http://www.swixsport.com/"> <img src="<?php echo get_stylesheet_directory_uri() ?>/images/Swix-logo-thumb.png" /></a>
+	 The Swix brand has been an industry leader in the racing scene for decades. Swix puts all its scientific knowledge and experience into providing athletes with products of the highest calibre, so that 
+         they can expand their own limits and challenge the laws of nature.  Swix provides Ben with his
+         <a href="http://www.swixsport.com/eway/default.aspx?pid=278&trg=MainContent_6179&MainContent_6179=6117:0:24,3021&MainPage_6117=6546:38046:" title="Swix Racing Poles"> racing poles </a>
+         and <a href="http://www.swixsport.com/eway/default.aspx?pid=278&trg=MainContent_6179&MainContent_6179=6117:0:24,2703" title="Swix tunning equipment">tuning equipment </a>
+         so he can perform at his best.	
 	</p>
      </div>	
 </div>
@@ -74,7 +78,8 @@
      <div id="on_cowboy_hover" class="animated">
         <p>
         <a href="#"> <img src="<?php echo get_stylesheet_directory_uri() ?>/images/cowboy-logo.png" /></a>
-        The Canadian Cowboys is an elite team of Canadian Alpine Skiers who are pushing the sport forward in Canada and representing the country on a global scale to learn more about them check out this <a href="http://www.youtube.com/watch?v=KOFoFvLdwvM" title="Canadian Cowboys Video">video by Alpine Canada </a> 
+        The Canadian Cowboys is an elite team of Canadian Alpine Skiers who are pushing the sport forward in Canada and representing the country on a global scale to learn more about them check out this 
+        <a href="http://www.youtube.com/watch?v=KOFoFvLdwvM" title="Canadian Cowboys Video">video by Alpine Canada </a> 
         </p>
      </div>     
 </div>

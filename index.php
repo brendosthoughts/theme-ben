@@ -3,6 +3,7 @@
 <div id="casing">
 <div class="incasing">
 <div id="content">
+
 <?php if(get_option('shut_homelayout') == "blog") { ?>
 <div class="topbar">
 <?php include (TEMPLATEPATH . '/searchform.php'); ?>
@@ -60,5 +61,10 @@ if ( has_post_thumbnail() ) { ?>
 <div class="clear"></div>
 </div>
 </div>	
+<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        <div id="secondary" class="widget-area" role="complementary">
+<?php dynamic_sidebar( 'sidebar-1' ); ?>
+        </div>
+<?php endif; ?>
 
 <?php get_footer(); ?>

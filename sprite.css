@@ -1,44 +1,92 @@
-article{
-color: white;
-text-align: center;
-display: inline-block;
-width: 70em;
-clear: both;
-border-style: solid;
-border-radius: 2em;
-border-color: #ccc;
-border-width: 2px;
-padding: 1.5em 1.5em 1.5em 1.5em;
-margin: 3em 0 3em auto;
-}
-article a{
-display: block;
-color: white;
-font-size: 2em;
-}
-article span.article-date{
-clear:both;
-float: right; 
-text-align: left;
-color: #ccc;
-font-style: italic;
-max-width: 30%;
-margin-right: 3em;
+.moneda-logo, .logo_head_thumb, .Swix-logo-thumb, .scotiaMcleod, .POC-logo1, .alpine-canada-logo-thumb, .cowboy-logo, .Love, .maddy, .gray, .delsorbo, .bietz{
+	background: url('https://s3.amazonaws.com/benjaminthomsen.images/sprites.png') no-repeat;
 }
 
-article span.article-pub-site{
-float: left;
-max-width: 65%;
-text-align: left;
-color: #ccc;
-font-style: italic;
-margin-left: 3em;
-}
-article span.article-pub-site a{
-font-size: 1em;
-display: inline-block;
+.moneda-logo{
+background-position: 0 -385px;
+width: 292px;
+height: 95px;
+padding-bottom: 30%;
+padding-right: 100%;
 }
 
+.logo_head_thumb{
+	background-position: 0 -210px ;
+	width: 300px;
+	height: 60px;
+	padding-right: 100%;
+	padding-bottom:16%;
+}
+
+.Swix-logo-thumb{
+	background-position: 0 -273px ;
+	width: 300px;
+	height: 97px;
+	padding-right: 100%;
+	padding-bottom: 27%;
+}
+
+.scotiaMcleod{
+	background-position: -334px -319px ;
+	width: 300px;
+	height: 43px;
+	padding-right: 100%;
+	padding-bottom: 10%;	
+}
+
+.POC-logo1{
+background-position: -340px -365px;
+width: 300px;
+height: 115px;
+padding-right: 100%;
+padding-bottom: 40%;
+}
+
+.alpine-canada-logo-thumb{
+background-position: -360px -235px;
+width: 100px;
+height: 77px;
+padding-bottom: 60%;
+padding-right: 100%
+}
+
+.cowboy-logo{
+	background-position: -465px -140px ;
+	width: 175px;
+	height: 175px;
+	padding-bottom: 100%;
+	padding-right: 100%;
+}
+
+.Love{
+	background-position: -410px -162px ;
+	width: 50px;
+	height: 68px;
+}
+
+.maddy{
+	background-position: -285px -135px ;
+	width: 50px;
+	height: 66px;
+}
+
+.gray{
+	background-position: -306px -221px ;
+	width: 50px;
+	height: 70px;
+}
+
+.delsorbo{
+	background-position: 0 -140px ;
+	width: 230px;
+	height: 60px;
+}
+
+.bietz{
+	background-position: -352px -139px ;
+	width: 56px;
+	height: 74px;
+}
 .vid_cover{
         display:none;
 }
@@ -1065,9 +1113,8 @@ display: none;
 	
 /* --- FOOTER --- */
 .wrapper-sponsors{
-width: 90%;
+width: 100%;
 height: 100%;
-margin: 0% 5% 0% 5%;
 display: inline-block;
 }
 
@@ -1080,18 +1127,18 @@ padding: 0px 0px 0px 1%;
 #head-hover{
 float:left;
 height: 100%;
-width:14%;
+width:15.9%;
 padding: 1.5% 0px 0px 1%;
 }
 #scotia-hover{
 float:left;
-width: 18%;
+width: 16%;
 height: 100%;
 padding: 1.5% 0px 0px 1%;
 }
 #moneda-hover{
 float:left;
-width: 16%;
+width: 14.2%;
 height: 100%;
 padding: 0.5% 0px 0px 1% ;
 }
@@ -1104,13 +1151,13 @@ padding: 0.5% 0px 0px 1%;
 #alpine-hover{
 float:left;
 height: 100%;
-width:9%;
+width:5.5%;
 padding: 0px 0px 0px 1%;
 }
 #swix-hover{
 float:left;
 height: 100%;
-width:13%;
+width:15.8%;
 padding: 0.5% 0px 0px 1%;
 }
 .head{
@@ -1142,6 +1189,8 @@ margin: 0px;
 .cowboy{
 max-height: 100%;
 width: 75%;
+padding-left: 100%;
+padding-bottom:40%;
 }
 .alpine{
 height: 70%;
@@ -1376,17 +1425,9 @@ display:none;
 
 /* all media queries*/
 @media only screen and (max-width: 72em) { /* ~1150px */
-.incasing{
-width: 98%;
-margin: 11% 1% 9% 1%;
-}
-article{
-width: 90%;
-margin-left: 5%;
-margin-right: 5%;
-}
+
 #simplemodal-container a.modalCloseImg {
-height: 26%;
+hieght: 26%;
 }
 .wrapper-sponsors{
 width: 100%;

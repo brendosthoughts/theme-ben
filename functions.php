@@ -4,7 +4,19 @@ include 'theme_options.php';
 include 'guide.php';
 include 'slider.php';
 include 'metabox.php';
+function wpb_widgets_init() {
 
+	register_sidebar( array(
+		'name' => __( 'Main Sidebar', 'wpb' ),
+		'id' => 'sidebar-1',
+		'description' => __( 'The main sidebar appears on the right side of any slider page', 'wpb' ),
+		'before_widget' => '<aside id="recent-press" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+    }
+add_action( 'widgets_init', 'wpb_widgets_init' );
 
 function scripts() {
 if ( !is_admin() ) {
