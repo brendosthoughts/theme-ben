@@ -1,15 +1,52 @@
-article{
-color: white;
-text-align: center;
-display: inline-block;
-width: 70em;
-clear: both;
-border-style: solid;
-border-radius: 2em;
-border-color: #ccc;
-border-width: 2px;
-padding: 1.5em 1.5em 1.5em 1.5em;
-margin: 3em 0 3em auto;
+#race-results {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+
+#race-results thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#race-results thead tr th { 
+  font-weight: bold;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#race-results thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#race-results thead tr th.headerSortUp, #race-results thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#race-results thead tr th.tablesorter-headerAsc span {
+  background-image: url('images/up-arrow.png');
+}
+#race-results thead tr th.tablesorter-headerDesc span {
+  background-image: url('images/down-arrow.png');
+}
+
+
+#race-results tbody tr { 
+  color: #ccc;
+  background: rgba();
+}
+#race-results tbody tr td {
+  text-align: center;
+  padding: 15px 10px;
+}
+#race-results tbody tr td.lalign {
+  text-align: left;
+}
+
+
+article{ color: white; text-align: center; display: inline-block; width: 70em; clear: both; border-style: solid; 
+border-radius: 2em; border-color: #ccc; border-width: 2px; padding: 1.5em 1.5em 1.5em 1.5em; margin: 3em 0 3em auto;
 }
 article a{
 display: block;
@@ -913,12 +950,13 @@ display: none;
 /* Main Content*/	
 
 #content {
-	float:left;
 	width: 100%;
 	height:100%;
-	display:inline;
+	display:block;
 	overflow:hidden;
-
+        max-width: 90em;
+	margin-right: auto;
+	margin-left: auto;
 	
 	}	
 	

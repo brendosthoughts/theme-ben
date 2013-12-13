@@ -1,92 +1,3 @@
-.moneda-logo, .logo_head_thumb, .Swix-logo-thumb, .scotiaMcleod, .POC-logo1, .alpine-canada-logo-thumb, .cowboy-logo, .Love, .maddy, .gray, .delsorbo, .bietz{
-	background: url('https://s3.amazonaws.com/benjaminthomsen.images/sprites.png') no-repeat;
-}
-
-.moneda-logo{
-background-position: 0 -385px;
-width: 292px;
-height: 95px;
-padding-bottom: 30%;
-padding-right: 100%;
-}
-
-.logo_head_thumb{
-	background-position: 0 -210px ;
-	width: 300px;
-	height: 60px;
-	padding-right: 100%;
-	padding-bottom:16%;
-}
-
-.Swix-logo-thumb{
-	background-position: 0 -273px ;
-	width: 300px;
-	height: 97px;
-	padding-right: 100%;
-	padding-bottom: 27%;
-}
-
-.scotiaMcleod{
-	background-position: -334px -319px ;
-	width: 300px;
-	height: 43px;
-	padding-right: 100%;
-	padding-bottom: 10%;	
-}
-
-.POC-logo1{
-background-position: -340px -365px;
-width: 300px;
-height: 115px;
-padding-right: 100%;
-padding-bottom: 40%;
-}
-
-.alpine-canada-logo-thumb{
-background-position: -360px -235px;
-width: 100px;
-height: 77px;
-padding-bottom: 60%;
-padding-right: 100%
-}
-
-.cowboy-logo{
-	background-position: -465px -140px ;
-	width: 175px;
-	height: 175px;
-	padding-bottom: 100%;
-	padding-right: 100%;
-}
-
-.Love{
-	background-position: -410px -162px ;
-	width: 50px;
-	height: 68px;
-}
-
-.maddy{
-	background-position: -285px -135px ;
-	width: 50px;
-	height: 66px;
-}
-
-.gray{
-	background-position: -306px -221px ;
-	width: 50px;
-	height: 70px;
-}
-
-.delsorbo{
-	background-position: 0 -140px ;
-	width: 230px;
-	height: 60px;
-}
-
-.bietz{
-	background-position: -352px -139px ;
-	width: 56px;
-	height: 74px;
-}
 .vid_cover{
         display:none;
 }
@@ -229,268 +140,6 @@ iframe{
 z-index: 100;
 }
 
-/*Alpine rollover */
-#on_alpine_hover{
-        color:#ccc;
-        position: absolute;
-        display: none;
-        background: black;
-        border-radius: 1em;
-        border-color: #ccc;
-        border-width: 8px;
-        text-align: center;
-}
-#on_alpine_hover img{
-width: 10%; 
-margin-right: auto;
-margin-left: auto;
-float: left;
-
-}
-#on_alpine_hover p{
-clear:both;
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-}
-#on_alpine_hover a{
-color: white;
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-text-align: center;
-}
-
-
-/*Moneda*/
-#on_moneda_hover{
-        color:#ccc;
-        position: absolute;
-        display: none;
-        background: black;
-        border-radius: 1em;
-        border-color: #ccc;
-        border-width: 8px;
-        text-align: center;
-}
-#on_moneda_hover img{
-width: 10%; 
-margin-right: auto;
-margin-left: auto;
-float: left;
-
-}
-#on_moneda_hover p{
-clear:both;
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-}
-#on_moneda_hover a{
-color: white;
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-text-align: center;
-}
-
-
-/* cowboy rollover */
-#on_cowboy_hover{
-        color:#ccc;
-        position: absolute;
-        display: none;
-        background: black;
-        border-radius: 1em;
-        border-color: #ccc;
-        border-width: 8px;
-        text-align: center;
-}
-#on_cowboy_hover img{
-width: 10%; 
-margin-right: auto;
-margin-left: auto;
-float: left;
-
-}
-#on_cowboy_hover p{
-clear:both;
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-}
-#on_cowboy_hover a{
-color: white;
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-text-align: center;
-}
-
-
-/* swix rollover */
-#on_swix_hover{
-        color:#ccc;
-        position: absolute;
-        display: none;
-        background: black;
-        border-radius: 1em;
-        border-color: #ccc;
-        border-width: 8px;
-        text-align: center;
-}
-#on_swix_hover img{
-width: 20%; 
-
-}
-#on_swix_hover p{
-clear:both;
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-float: left;
-}
-#on_swix_hover a{
-color: white;
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-text-align: left;
-}
-/*on poc rollover */
-#poc_hover img{
- height: 100px;
-}
-#on_poc_hover{
-	color:#ccc;
-	position: absolute;
-	display: none;
-	background: black;
-	border-radius: 1em;
-	border-color: #ccc;
-	border-width: 8px;
-	text-align: center;
-	
-}
-#on_poc_hover img{
-width: 20%; 
-margin-right: auto;
-margin-left: auto;
-float: left;
-
-}
-#on_poc_hover p{
-clear:both;
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-}
-#on_poc_hover a{
-color: white;
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-text-align: center;
-}
-/* head rollover */
-#on_head_hover{
-	color:#ccc;
-	background: black;
-	position: absolute;
-	display: none;
-	border-radius: 1em;
-	border-color: #ccc;
-	border-width: 8px;
-	text-align: center;
-}
-#on_head_hover img{
-width: 20%;
-}
-#on_head_hover p{
-font-size: 1.2em;
-font-weight: bold;
-margin: 1em 1em 1em 1em;
-text-align: left;
-float: left;
-}
-#on_head_hover a{
-font-size: 1.2em;
-font-weight: bold;
-text-decoration:underline;
-color: white;
-text-align: center;
-}
-
-/* scotia rollover */
-#on_scotia_hover{
-	position: absolute;
-	display: none;
-	background: #000;
-	border-radius: 1em;
-	border-color: #ccc;
-	border-width: 8px;
-	text-align: center;
-	font-size: 1em;
-	color: #ccc;
-
-}
-.scotiamcleod{
-width: 20%;
-}
-#on_scotia_hover p{
-font-size: 1.4em;
-font-weight: bold;
-text-align: left;
-float: left;
-margin: 1em 1em 1em 1em ;
-color: #ccc;
-}
-#partners{
-text-align: center;
-clear:both;
-color: white;
-font-size: 1.4em;
-}	
-#on_scotia_hover a{
-text-decoration: none;
-color: red;
-font-family: Helvetica, Sans;
-text-align: center;
-}
-.scotia_partner{
-margin: 0.2em .5em 0.2em .5em;
-border: solid;
-border-color: #ccc;
-border-width: 2px;
-border-radius: 0.5em;
-float: left;
-width: 15%;
-min-width: 15em;
-height: 4.3em;
-}
-.scotia_partner:hover{
-background: red;
-}
-.face{
-padding: .3em .5em .3em 1em;
-float: left;
-width: 2.5em;
-border-radius: 50%;
-}
-.partner-name{
-float: right;
-padding: 0.5em 0.5em 0.5em 0.5em;
-text-decoration: none;
-color: #ccc;
-font-size: 1.5em;
-width: 60%;
-
-}
 .extra_results{
 	width: 30%;
 	margin-right: 10%;
@@ -1112,108 +761,271 @@ display: none;
 
 	
 /* --- FOOTER --- */
-.wrapper-sponsors{
+ul#foot_main{
+        padding:0px 0 10px 0px;
+        color:#272727;
+        background:#000 ;
+        z-index: 200;
+        bottom: 0px;
+        left: 0px !important;
+        position: fixed;
+        width:100%
+        }
+#foot_main ul:before {
+  content:'';
+  display:inline-block;
+  padding-top:3%;
+  vertical-align:top;
+}
+#alpine-logo, #head-logo, #moneda-logo, #poc-logo, #scotiamcleod-logo, #swix-logo, #cowboys-logo, li{
+  margin: 0% 1% 0% 1%;
+  display:inline-block;  
+  vertical-align:top;
+  text-align:center;
+  background-size:auto 100%;
+  background: url(https://s3.amazonaws.com/benjaminthomsen.images/sponsors-sprite-final.png)no-repeat;
+
+}
+li:before {
+  content:'';
+  display:inline-block;
+  vertical-align:middle;
+} 
+
+li a {
+  display:inline-block;
+  vertical-align:middle;
+}
+#alpine-logo,#alpine {
+  width:7%;
+ background-position:  0 0;
+   background-size:auto 175%;
+}
+#alpine-logo, #alpine:before {
+  padding-top:90%;
+}
+#head-logo, #head {
+  width:12%;
+  background-size:auto 175%;
+  background-position: 10% 0;
+}
+#head-logo, #head:before {
+  padding-top:54%;
+}
+#moneda-logo, #moneda{
+
+  width:15.2%;
+  background-size:auto 175%;
+  background-position: 29.3% 0;
+}
+#moneda-logo, #moneda:before {
+  padding-top:44.5%;
+}
+#poc-logo, #poc {
+
+  width:11.4%;
+  background-size: auto  175%;
+  background-position: 49.2% 0;
+}
+#poc-logo, #poc:before {
+
+  padding-top:56%;
+}
+#scotiamcleod-logo, #scotiamcleod {
+
+  width:17%;
+  background-size: 450% 175%;
+  background-position: 72.4% 0;
+}
+#scotiamcleod-logo, #scotiamcleod:before {
+  padding-top:36.5%;
+}
+#swix-logo, #swix {
+
+  width:11%;
+  background-size: 705% 175%;
+  background-position: 91.6% 0;
+}
+#swix-logo, #swix:before {
+  padding-top:57.5%;
+}
+#cowboys-logo, #cowboys {
+  width:6.4%;
+  background-size:auto  160%;
+  background-position: 100% 0;
+  
+}
+#cowboys-logo, #cowboys:before {
+  padding-top:109%;
+}
+/* check where li stands 
+li {%
+  box-shadow:inset 0 0 0 2px white;
+}
+*/
+
+ #head-logo, #moneda-logo, #swix-logo, #cowboys-logo{
+height:5em;
+width:11em;
+padding-top: 0px;
+float: left;
+}
+#scotiamcleod-logo{
+width: 23em;
+height: 11em;
+padding-top: 0px;
+float: left;
+}
+#poc-logo{
+height: 6em ;
+width: 11em;
+padding-top: 0px;
+float: left;
+}
+#cowboys-logo{
+width: 5.7em; 
+height: 6em;
+padding-top: 0px;
+float: left;
+}
+#alpine-logo{
+width: 6.6em;
+height: 6em;
+padding-top: 0px;
+float: left;
+}
+.animated{
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-weight: normal;
+	text-align: left;
+	float: left;
+        color:#ccc;
+        position: absolute;
+        display: none;
+        background: black;
+        border-radius: 1em;
+        border-color: #ccc;
+        border-width: 8px;
+
+}
+.animated a{
+font-weight: bold;
+font-decoration: underline;
+color: white;
+}
+
+ul li[id^='sp']:hover {background-color:black!important;}
+#on_scotia_hover{
+        position: absolute;
+        display:none;
+        background: #000;
+        border-radius: 1em;
+        border-color: #ccc;
+        border-width: 8px;
+        text-align: center;
+        font-size: 1em;
+        color: #ccc;
+        width: 100%;
+
+}
+
+#on_scotia_hover p{
+display: block;
+font-size: 1em;
+font-weight: bold;
+text-align: left;
+float: left;
+margin: 1em 1em 1em 1em ;
+color: #ccc;
+}
+#partners{
+text-align: center;
+clear:both;
+color: white;
+font-size: 1em;
+}       
+#on_scotia_hover a{
+text-decoration: none;
+color: red;
+font-family: Helvetica, Sans;
+text-align: center;
+}
+.scotia_partner{
+margin: 0.2em .5em 0.2em .5em;
+border: solid;
+border-color: #ccc;
+border-width: 2px;
+border-radius: 0.5em;
+float: left;
+width: 15%;
+min-width: 17em;
+height: 4.3em;
+}
+.scotia_partner a{
 width: 100%;
-height: 100%;
-display: inline-block;
+}
+.scotia_partner:hover{
+background: red;
+}
+#delsorbo,.face{
+  display:inline-block;  
+  vertical-align:top;
+  text-align:center;
+  background-size:auto 100%;
+  padding: .6em 1em .3em 1em;
+float: left;
+width: 2em;
+height: 80%;
+  background: url(https://s3.amazonaws.com/benjaminthomsen.images/sponsors-sprite-final.png)no-repeat;
+}
+#scotiamcleod-logo{
+ 
+  height: 3em;
+  width:10%;
+  background-size: 450% 175%;
+  background-position: 72.4% 0;
+  margin-right: 2%;
+}
+.face{
+   margin: 0% 1% 0% 4%;
+  background-color: blue;
+border-radius: 50%;
+}
+#delsorbo{
+  width:95%;
+     background-size: auto  270%;
+  background-position: 33% 100%;
+  
+}
+#love{
+   background-size: auto  355%;
+  background-position: 7.6% 86%;
 }
 
-#cowboy-hover{
-float:left;
-height: 100%;
-width:9%;
-padding: 0px 0px 0px 1%;
+#bietz{
+  
+   background-size: auto  340%;
+  background-position: 21.5% 81.5%;
 }
-#head-hover{
-float:left;
-height: 100%;
-width:15.9%;
-padding: 1.5% 0px 0px 1%;
+#gray{
+     background-size: auto  330%;
+  background-position: 1.45% 90%;
 }
-#scotia-hover{
-float:left;
-width: 16%;
-height: 100%;
-padding: 1.5% 0px 0px 1%;
+#marchese{
+     background-size: auto  355%;
+  background-position: 14.5% 88%;
 }
-#moneda-hover{
-float:left;
-width: 14.2%;
-height: 100%;
-padding: 0.5% 0px 0px 1% ;
-}
-#poc-hover{
-float:left;
-height: 100%;
-width:14%;
-padding: 0.5% 0px 0px 1%;
-}
-#alpine-hover{
-float:left;
-height: 100%;
-width:5.5%;
-padding: 0px 0px 0px 1%;
-}
-#swix-hover{
-float:left;
-height: 100%;
-width:15.8%;
-padding: 0.5% 0px 0px 1%;
-}
-.head{
- width: 80%;
-padding: 0px;
-margin: 0px;
-}
-.moneda{
-width: 90%;
-border-bottom-right-radius: 50%;
-border-top-right-radius :50%;
-border-color: black;
-}
-.scotia{
-width:90%;
-padding: 0px;
-margin: 0px;
-}
-#on_scotia_hover .delsorbo{
-height: 3.5em;
-padding: .3em .5em .3em 1em;
+.partner-name{
+float: right;
+padding: 0.5em 0.5em 0.5em 0.5em;
+text-decoration: none;
+color: #ccc;
+font-size: 1.5em;
+font-weight: bold;
+max-width: 60%;
 
 }
-.poc{
-width: 75%;
-padding: 0px;
-margin: 0px;
-}
-.cowboy{
-max-height: 100%;
-width: 75%;
-padding-left: 100%;
-padding-bottom:40%;
-}
-.alpine{
-height: 70%;
-width: 70%;
-padding-top: 6%;
-}
-.swix{
-width: 80%;
-padding: 0px;
-margin: 0px;
-}
-footer {
-	height: 10%;
-	padding:0px 0 10px 0px;
-	color:#272727;
-	font-size:11px;
-	background:#000 ;
-	z-index: 200;
-	bottom: 0px;
-	left: 0px !important;
-	position: fixed;
-	width:100%
-	}
 
 footer a{
 color: #8B8882;
@@ -1739,6 +1551,14 @@ display:table-cell;
 .animations{
 font-size: 1.1em;
 line-height: 1.1em;
+font-weight: normal;
+color: white;
+text-align: left;
+}
+.animations a{
+font-weight: bold;
+font-style: underlined;
+color: white;
 }
 .extra_results{
 float: left;

@@ -5,6 +5,8 @@
 <link href='http://fonts.googleapis.com/css?family=Bilbo|Prosto+One|Happy+Monkey' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
 <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Cabin+Sketch|Londrina+Sketch|Shadows+Into+Light|Gloria+Hallelujah|Just+Me+Again+Down+Here|Black+Ops+One|Ribeye+Marrow|Miltonian|Indie+Flower|Rock+Salt|Jacques+Francois+Shadow|Ewert' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
@@ -20,7 +22,7 @@
 wp_enqueue_script('jquery');
 wp_enqueue_script('fitText', get_stylesheet_directory_uri() .'/js/jquery.fittext.js');
 wp_enqueue_script('site-base-js', get_stylesheet_directory_uri() .'/js/site-base.js');
-
+wp_enqueue_script('tablesorter', get_stylesheet_directory_uri() .'/js/jquery.tablesorter.min.js');
 //wp_enqueue_script('slides', get_stylesheet_directory_uri() .'/js/slides.min.jquery.js');p
 //wp_enqueue_script('effects', get_stylesheet_directory_uri() .'/js/effects.js');
 ?>

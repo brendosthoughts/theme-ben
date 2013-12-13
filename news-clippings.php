@@ -5,7 +5,6 @@
 ?>
 
 <?php get_header(contentpage); ?>
-
 <?php if (has_post_thumbnail( $post->ID ) ): ?>
 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 <div id="casing" style="background: url('<?php echo $image[0]; ?>') no-repeat center center; background-size: cover; ">
@@ -39,15 +38,11 @@ $meta =get_post_custom();
 </article>
 
 <?php endwhile;?>
-<div class="clear"></div>
-</div>
-</div>
-<div class="clear"></div>
 </div>
 </div>
 
 </div>
-
+</div>
 <div class="clear"></div>
 </div>  
 <?php get_footer(); ?>
