@@ -761,12 +761,22 @@ display: none;
 
 	
 /* --- FOOTER --- */
+footer{
+display: block;
+        background:#000 ;
+        z-index: 200;
+        bottom: 0px;
+        left: 0px !important;
+        position: fixed;
+        width:100%
+	height: 12%;
+}
 ul#foot_main{
         padding:0px 0 10px 0px;
         color:#272727;
         background:#000 ;
         z-index: 200;
-        bottom: 0px;
+        bottom: 16px;
         left: 0px !important;
         position: fixed;
         width:100%

@@ -6,6 +6,7 @@
 
 </head>
 <body>
+<footer>
 <ul id="foot_main">
   <li id="alpine"><a href="#"></a>
        <div id="on_alpine_hover" class="animated">

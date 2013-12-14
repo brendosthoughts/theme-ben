@@ -14,7 +14,7 @@
 <script>
 
 jQuery(function($){
-  $('#race-results').tablesorter(); 
+  $('#race-results').footable(); 
 });
 </script>
 <div class="incasing">
@@ -27,16 +27,18 @@ jQuery(function($){
 
 <div class="entry">
 
-<table id="race-results" cellspacing="0" cellpadding="0">
+<div class="result-search">Search the table to filter results <input id="filter" type="text" /> 
+</div>
+<table id="race-results" class="footable" data-filter="#filter">
     <thead>
       <tr>
-        <th><span>Race Date</span></th>
-        <th><span>Location</span></th>
-        <th><span>Nation</span></th>
-        <th><span>Category</span></th>
-        <th><span>Discipline</span></th>
-        <th><span>Position</span></th>
-        <th><span>Points</span></th>
+        <th data-class="expand" data-sort-initial="true" data-type="numeric">Race Date</th>
+        <th data-hide="phone,tablet">Location</th>
+        <th data-hide="phone">Nation</th>
+        <th data-hide="phone">Category</th>
+        <th>Discipline</th>
+        <th data-type="numeric">Position</th>
+        <th data-type="numeric" data-hide="phone,tablet">Points</th>
       </tr>
     </thead>
     <tbody>
@@ -50,13 +52,13 @@ $postID= get_the_ID();
 $meta =get_post_custom();
 ?>     
 	<tr>
-	   <td><?=$meta['wpcf-result-date'][0]?></td>
+	   <td data-value="<?=$meta['wpcf-result-date'][0]?>"><?=$meta['wpcf-result-date'][0]?></td>
            <td><?=$meta['wpcf-result-location'][0]?></td>
            <td><?=$meta['wpcf-result-nation'][0]?></td>
            <td><?=$meta['wpcf-result-category'][0]?></td>
            <td><?=$meta['wpcf-result-discipline'][0]?></td>
-           <td><?=$meta['wpcf-result-position'][0]?></td>
-	   <td><?=$meta['wpcf-result-points'][0]?></td>
+           <td data-value="<?=$meta['wpcf-result-position'][0]?>"><?=$meta['wpcf-result-position'][0]?></td>
+	   <td data-value="<?=$meta['wpcf-result-points'][0]?>"><?=$meta['wpcf-result-points'][0]?></td>
 	</tr>
 <?php endwhile;?> 
        </tbody>
