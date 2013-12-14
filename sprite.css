@@ -762,33 +762,32 @@ display: none;
 	
 /* --- FOOTER --- */
 footer{
-display: block;
         background:#000 ;
         z-index: 200;
         bottom: 0px;
         left: 0px !important;
+	bottom:0px;
         position: fixed;
-        width:100%
-	height: 12%;
+        width:100%;
 }
 ul#foot_main{
-        padding:0px 0 10px 0px;
+        padding:0px;
         color:#272727;
         background:#000 ;
-        z-index: 200;
-        bottom: 16px;
+        bottom: 10px;
         left: 0px !important;
-        position: fixed;
-        width:100%
+        width:100%;
+        margin-top: 0px;
+	margin-bottom:0px;
         }
 #foot_main ul:before {
   content:'';
   display:inline-block;
-  padding-top:3%;
+  padding-top:0%;
   vertical-align:top;
 }
 #alpine-logo, #head-logo, #moneda-logo, #poc-logo, #scotiamcleod-logo, #swix-logo, #cowboys-logo, li{
-  margin: 0% 1% 0% 1%;
+  margin: 0% 1.75% 0% 1.75%;
   display:inline-block;  
   vertical-align:top;
   text-align:center;
@@ -807,7 +806,7 @@ li a {
   vertical-align:middle;
 }
 #alpine-logo,#alpine {
-  width:7%;
+  width:6%;
  background-position:  0 0;
    background-size:auto 175%;
 }
@@ -815,7 +814,7 @@ li a {
   padding-top:90%;
 }
 #head-logo, #head {
-  width:12%;
+  width:11%;
   background-size:auto 175%;
   background-position: 10% 0;
 }
@@ -824,7 +823,7 @@ li a {
 }
 #moneda-logo, #moneda{
 
-  width:15.2%;
+  width:14.2%;
   background-size:auto 175%;
   background-position: 29.3% 0;
 }
@@ -833,7 +832,7 @@ li a {
 }
 #poc-logo, #poc {
 
-  width:11.4%;
+  width:10.4%;
   background-size: auto  175%;
   background-position: 49.2% 0;
 }
@@ -843,7 +842,7 @@ li a {
 }
 #scotiamcleod-logo, #scotiamcleod {
 
-  width:17%;
+  width:16%;
   background-size: 450% 175%;
   background-position: 72.4% 0;
 }
@@ -852,7 +851,7 @@ li a {
 }
 #swix-logo, #swix {
 
-  width:11%;
+  width:10%;
   background-size: 705% 175%;
   background-position: 91.6% 0;
 }
@@ -860,7 +859,7 @@ li a {
   padding-top:57.5%;
 }
 #cowboys-logo, #cowboys {
-  width:6.4%;
+  width:5.4%;
   background-size:auto  160%;
   background-position: 100% 0;
   
@@ -1041,9 +1040,9 @@ footer a{
 color: #8B8882;
 }
 .copyright{
-padding-bottom: 0.5em;
 text-align: center;
-height: 1em;
+height: 0.8em;
+color: #ccc;
 }
 .fcred_old{
 	width:700px;
